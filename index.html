@@ -148,7 +148,7 @@
         /* Hero Section */
         .hero {
             background:linear-gradient(rgba(233, 235, 238, 0.8), rgba(230, 234, 240, 0.103)), 
-                        url("C:/Users/HAFFY/Desktop/WEB DESIGN/Lecture 3/html/homeimagetop.jpg") no-repeat center center/cover;
+                        url("homeimagetop.jpg") no-repeat center center/cover;
             color: white;
             padding: 5rem 0;
             text-align: center;
@@ -477,7 +477,7 @@
                     <a href="#" class="btn">Learn More</a>
                 </div>
                 <div class="content-image">
-                    <img src="C:\Users\HAFFY\Desktop\WEB DESIGN\Lecture 3\html\kid-touches-robot.jpg" alt="Cosmology exhibition">
+                    <img src="kid-touches-robot.jpg" alt="Cosmology exhibition">
                 </div>
             </div>
         </div>
@@ -527,57 +527,29 @@
                         <li><a href="#">Events</a></li>
                         <li><a href="#">Programs</a></li>
                         <li><a href="#">Exhibitions</a></li>
-                        <li><a href="#">Explore</a></li>
-                        <li><a href="#">Visit Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">Phone</a></li>
+                        <li><a href="#">Location</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h3>Follow Us</h3>
-                    <div class="social-icons">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-                <div class="footer-section">
-                    <h3>Contact Information</h3>
-                    <p>Community Science Museum</p>
-                    <p>Tel. +256 757 886 712</p>
-                    <div class="payment-methods">
-                        <h4>Pay With</h4>
-                        <div>
-                            <i class="fab fa-cc-visa" style="font-size: 2rem; margin-right: 10px;"></i>
-                            <i class="fab fa-cc-mastercard" style="font-size: 2rem; margin-right: 10px;"></i>
-                            <i class="fab fa-cc-paypal" style="font-size: 2rem;"></i>
-                        </div>
-                    </div>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Community Science Museum. All rights reserved.</p>
+                &copy; 2025 Community Science Museum. All rights reserved.
             </div>
         </div>
     </footer>
-
-    <script>
-        // Simple search functionality
-        document.querySelector('.search-bar button').addEventListener('click', function() {
-            const searchTerm = document.querySelector('.search-bar input').value;
-            if (searchTerm.trim() !== '') {
-                alert(`Searching for: ${searchTerm}`);
-            }
-        });
-
-        // Add active class to navigation items on click
-        document.querySelectorAll('.main-nav a').forEach(link => {
-            link.addEventListener('click', function(e) {
-                document.querySelectorAll('.main-nav a').forEach(item => {
-                    item.classList.remove('active');
-                });
-                this.classList.add('active');
-            });
-        });
-    </script>
 </body>
 </html>
